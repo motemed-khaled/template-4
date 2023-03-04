@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- render all element -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Work+Sans:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative mt-0 txt-c">Metoo</h3>
+            <ul>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-solid fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" active d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-solid fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="project.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                        <i class="fa-regular fa-circle fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="file.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="fa-solid fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="page-content w-full">
+            <!-- start header -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10" type="search" placeholder="Write A Keyword">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i> 
+                    </span>
+                    <img src="image/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- end header -->
+            <h1 class="p-relative">Profile</h1>
+            <div class="profile-page m-20 d-grid gap-20">
+                <!-- start overview -->
+                <div class="overview p-20 txt-c rad-6 bg-white d-flex align-center">
+                    <div class="avatar-box">
+                        <img class="rad-half mb-10" src="image/avatar.png" alt="">
+                        <h3 class="m-0">Motemed Khaled</h3>
+                        <p class="c-grey mt-10 ">Level 75 </p>
+                        <div class="level rad-6 bg-eee p-relative">
+                            <span style="width:80% ;"></span>
+                        </div>
+                        <div class="rating mt-10 mb-10">
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-solid fa-star c-orange fs-13"></i>
+                            <i class="fa-regular fa-star c-orange fs-13"></i>
+                            <i class="fa-regular fa-star c-orange fs-13"></i>
+                        </div>
+                        <p class="c-grey fs-13">850 Rating</p>
+                    </div>
+                    <div class="info-box">
+                        <!-- start information row -->
+                        <div class="box p-20 d-flex align-center ">
+                            <h4 class="w-full c-grey fs-14 m-0">General Information</h4>
+                            <div class="fs-14">
+                                <span class="c-grey">Full Name</span>
+                                <span>Motemed Khaled</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Gender</span>
+                                <span>Male</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Country</span>
+                                <span>Egypt</span>
+                            </div>
+                            <div >
+                                <label>
+                                    <input type="checkbox" class="toggle-checkbox" checked>
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="box p-20 d-flex align-center">
+                            <h4 class="w-full c-grey fs-14 m-0">Personial Information</h4>
+                            <div class="fs-14">
+                                <span class="c-grey">Email</span>
+                                <span>motemedkhaled5@gmail.com</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Phone</span>
+                                <span>01022484942</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Date Of Birth</span>
+                                <span>29 / 5 / 2022</span>
+                            </div>
+                            <div >
+                                <label>
+                                    <input type="checkbox" class="toggle-checkbox" checked>
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="box p-20 d-flex align-center">
+                            <h4 class="w-full c-grey fs-14 m-0">Job Information</h4>
+                            <div class="fs-14">
+                                <span class="c-grey">Title :</span>
+                                <span>Full Stack Developer</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Programming Language</span>
+                                <span>php</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Years Of Experience</span>
+                                <span>4+</span>
+                            </div>
+                            <div>
+                                <label>
+                                    <input type="checkbox" class="toggle-checkbox" checked>
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="box p-20 d-flex align-center">
+                            <h4 class="w-full c-grey fs-14 m-0">Billing Information</h4>
+                            <div class="fs-14">
+                                <span class="c-grey">Pay Ment Method:</span>
+                                <span>Pay Pall</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Email</span>
+                                <span>motemed@web.com</span>
+                            </div>
+                            <div class="fs-14">
+                                <span class="c-grey">Subscription:</span>
+                                <span>Monthly</span>
+                            </div>
+                            <div >
+                                <label>
+                                    <input type="checkbox" class="toggle-checkbox" checked>
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- end information row -->
+                    </div>
+                </div>
+                <!-- end overview -->
+                <!-- start other data -->
+                <div class="other-data d-flex gap-20 ">
+                    <div class="skills-card p-20 bg-white rad-6 mt-20">
+                        <h2 class="mt-0 mb-10 ">My Skills</h2>
+                        <p class="mt-0 mb-20 c-grey fs-14">complete Skills List</p>
+                        <ul class="txt-c-mobile m-0">
+                            <li><span>Html</span> <span>pug js</span> <span>HAML</span></li>
+                            <li><span>STYLUS</span> <span>SASS</span> <span>CSS</span></li>
+                            <li><span>TypeScript</span> <span>JavaScript</span> </li>
+                            <li><span>VueJs</span> <span>ReactJs</span> </li>
+                            <li><span>Jest</span> <span>Jasmine</span> </li>
+                            <li><span>Php</span> <span>Larvel</span> </li>
+                            <li><span>Paython</span> <span>Django</span> </li>
+                        </ul>
+                    </div>
+                    <div class="activties p-20 bg-white rad-6 mt-20">
+                        <h2 class="mt-0 mb-10 ">Latest Activities</h2>
+                        <p class="mt-0 mb-20 c-grey fs-14">Latest Activities Done By User</p>
+                        <div class="activity d-flex align-center txt-c-mobile">
+                            <img src="image/activity-01.png" alt="">
+                            <div class="info">
+                                <span class="d-block mb-10">Store</span>
+                                <span class="c-grey">Bought The Mastring Larvel Course</span>
+                            </div>
+                            <div class="date">
+                                <span class="d-block mb-10">19:10</span>
+                                <span class="c-grey">Monday</span>
+                            </div>
+                        </div>
+                        <div class="activity d-flex align-center txt-c-mobile">
+                            <img src="image/activity-02.png" alt="">
+                            <div class="info">
+                                <span class="d-block mb-10">Academy</span>
+                                <span class="c-grey">Got The Php Certificate</span>
+                            </div>
+                            <div class="date">
+                                <span class="d-block mb-10">16:10</span>
+                                <span class="c-grey">Satrday</span>
+                            </div>
+                        </div>
+                        <div class="activity d-flex align-center txt-c-mobile">
+                            <img src="image/activity-03.png" alt="">
+                            <div class="info">
+                                <span class="d-block mb-10">Badges</span>
+                                <span class="c-grey">Unlock The 10 Skills Badge</span>
+                            </div>
+                            <div class="date">
+                                <span class="d-block mb-10">19:10</span>
+                                <span class="c-grey">Monday</span>
+                            </div>
+                        </div>
+                        <div class="activity d-flex align-center txt-c-mobile">
+                            <img src="image/activity-01.png" alt="">
+                            <div class="info">
+                                <span class="d-block mb-10">Store</span>
+                                <span class="c-grey">Bought The Mastring Express Course</span>
+                            </div>
+                            <div class="date">
+                                <span class="d-block mb-10">19:10</span>
+                                <span class="c-grey">Friday</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end other data -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
